@@ -1,0 +1,79 @@
+#pragma once
+
+// Copy to config.h and fill in real values.
+
+#include <Arduino.h>
+#include "user_settings.h"
+#include <math.h>
+#include <WiFiS3.h>
+#include <WiFiUdp.h>
+#include <ArduinoMqttClient.h>
+#include <Arduino_LED_Matrix.h>
+#include <EEPROM.h>
+#include <ezTime.h>
+
+#if __has_include(<WDT.h>)
+#include <WDT.h>
+#define HAS_WDT 1
+#else
+#define HAS_WDT 0
+#endif
+
+#if __has_include(<pgmspace.h>)
+#include <pgmspace.h>
+#endif
+#ifndef pgm_read_byte
+#define pgm_read_byte(addr) (*(const uint8_t *)(addr))
+#endif
+
+#if __has_include("secrets.h")
+#include "secrets.h"
+#else
+#error "Missing secrets.h. Copy secrets.example.h to secrets.h and fill in credentials."
+#endif
+
+const char TOPIC_TEMP[] = "your/mqtt/path/temperature/state";
+const char TOPIC_HUM[] = "your/mqtt/path/humidity/state";
+const char TOPIC_STATUS[] = "your/mqtt/path/status/state";
+const char MQTT_STATUS_ONLINE[] = "online";
+const char MQTT_STATUS_OFFLINE[] = "offline";
+const char MQTT_CLIENT_ID[] = "uno-r4-matrix";
+
+const unsigned long SHOW_MS = 8000;
+const unsigned long WIPE_MS = 450;
+const unsigned long UI_TICK_MS = 80;
+
+const unsigned long WIFI_CONNECT_TICK_MS = 120;
+const unsigned long MQTT_CONNECT_TICK_MS = 30;
+
+const unsigned long WIFI_TIMEOUT_MS = 30000;
+const unsigned long WIFI_WARMUP_ANIM_MS = 5000;
+
+const unsigned long MQTT_ANIM_RUN_MS = 9000;
+const unsigned long MQTT_FAIL_SHOW_MS = 1500;
+const unsigned long MQTT_TOTAL_TIMEOUT_MS = 30000;
+const unsigned long MQTT_SESSION_BACKOFF_BASE_MS = 4000;
+const unsigned long MQTT_SESSION_BACKOFF_MAX_MS = 60000;
+const unsigned long WIFI_BACKOFF_BASE_MS = 2000;
+const unsigned long WIFI_BACKOFF_MAX_MS = 60000;
+
+const uint8_t MQTT_SUB_QOS = 1;
+const uint8_t MQTT_STATUS_QOS = 1;
+const bool MQTT_STATUS_RETAIN = true;
+
+const unsigned long CLOCK_TOGGLE_MS = 4000;
+
+const float TEMP_MIN_C = -20.0f;
+const float TEMP_MAX_C = 60.0f;
+const float HUM_MIN = 0.0f;
+const float HUM_MAX = 100.0f;
+
+const unsigned long STALE_MS = 10UL * 60UL * 1000UL;
+const unsigned long PERSIST_MIN_INTERVAL_MS = 60UL * 1000UL;
+const float PERSIST_DELTA = 0.05f;
+
+const unsigned long LED_PULSE_MS = 60;
+const uint32_t WDT_TIMEOUT_MS = 8000;
+const int EZTIME_CACHE_ADDR = 64;
+
+#define SERIAL_DEBUG 1
