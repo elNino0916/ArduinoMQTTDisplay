@@ -404,7 +404,8 @@ void setup() {
   Serial.println("=====================");
   Serial.println("MQTT Temp/Hum Display for Uno R4 WiFi");
   Serial.println("Build: " __DATE__ " " __TIME__);
-  Serial.println("© 2026 elNino0916. All rights reserved.");
+  Serial.println("© 2026 elNino0916 and contributors.");
+  Serial.println("https://github.com/elNino0916/ArduinoMQTTDisplay");
   Serial.println("https://elNino0916.de");
   Serial.println("=====================");
   Serial.println("Setup start");
