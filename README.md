@@ -15,7 +15,7 @@
 - 📊 **Real-time Display** - Shows temperature, humidity, and clock on the Arduino Uno R4 WiFi's built-in 12×8 LED matrix
 - 🔌 **MQTT Integration** - Subscribes to MQTT topics for live sensor data
 - 📡 **WiFi Connectivity** - Connects to your home network automatically
-- 🌙 **Night Mode** - Automatically dims or disables display during nighttime hours
+- 🌙 **Night Mode** - Automatically switches to clock-only mode at nighttime.
 - 💾 **Persistent Storage** - Saves last known values to EEPROM
 - 🔄 **Auto-recovery** - Reconnects to WiFi and MQTT broker automatically
 - ⏰ **Network Time Sync** - Displays accurate time using NTP
