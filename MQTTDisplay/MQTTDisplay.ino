@@ -400,9 +400,8 @@ static void handleSerialCommands(unsigned long now) {
 void setup() {
   Serial.begin(115200);
   delay(150);
-  Serial.println("Initialized Serial");
   Serial.println("=====================");
-  Serial.println("MQTT Temp/Hum Display for Uno R4 WiFi");
+  Serial.println("MQTTDisplay dev-3.12");
   Serial.println("Build: " __DATE__ " " __TIME__);
   Serial.println("© 2026 elNino0916 and contributors.");
   Serial.println("https://github.com/elNino0916/ArduinoMQTTDisplay");
@@ -469,36 +468,36 @@ void loop() {
     if (!reinitDone && now > 5000) {
       reinitDone = true;
       bool ok = matrixInit(app);
-      Serial.print("Matrix re-begin: ");
-      Serial.println(ok ? "1" : "0");
     }
     static uint8_t frameA[8][12] = {
-      {1,0,1,0,1,0,1,0,1,0,1,0},
-      {0,1,0,1,0,1,0,1,0,1,0,1},
-      {1,0,1,0,1,0,1,0,1,0,1,0},
-      {0,1,0,1,0,1,0,1,0,1,0,1},
-      {1,0,1,0,1,0,1,0,1,0,1,0},
-      {0,1,0,1,0,1,0,1,0,1,0,1},
-      {1,0,1,0,1,0,1,0,1,0,1,0},
-      {0,1,0,1,0,1,0,1,0,1,0,1}
+      {0,0,0,0,0,1,1,0,0,0,0,0},
+      {0,0,0,0,0,1,1,0,0,0,0,0},
+      {0,0,0,0,0,1,1,0,0,0,0,0},
+      {0,0,0,0,0,1,1,0,0,0,0,0},
+      {0,0,0,0,0,1,1,0,0,0,0,0},
+      {0,0,0,0,0,0,0,0,0,0,0,0},
+      {0,0,0,0,0,1,1,0,0,0,0,0},
+      {0,0,0,0,0,1,1,0,0,0,0,0}
     };
     static uint8_t frameB[8][12] = {
+            {0,0,0,0,0,0,0,0,0,0,0,0},
+{1,1,0,0,1,1,0,0,1,1,1,0},
+{1,0,1,0,1,0,1,0,1,0,0,0},
+{1,0,1,0,1,1,0,0,1,0,0,0},
+{1,0,1,0,1,0,1,0,1,1,1,0},
+{1,0,1,0,1,0,1,0,1,0,1,0},
+{1,1,0,0,1,1,0,0,1,1,1,0},
       {0,0,0,0,0,0,0,0,0,0,0,0},
-      {0,0,0,0,0,0,0,0,0,0,0,0},
-      {0,0,0,0,0,0,0,0,0,0,0,0},
-      {0,0,0,0,0,0,0,0,0,0,0,0},
-      {0,0,0,0,0,0,0,0,0,0,0,0},
-      {0,0,0,0,0,0,0,0,0,0,0,0},
-      {0,0,0,0,0,0,0,0,0,0,0,0},
-      {0,0,0,0,0,0,0,0,0,0,0,0}
     };
     if (dbg) {
       matrixRenderBitmap(app, frameA);
+      Serial.println("!!! DEBUG MODE ENABLED, RE-FLASH FIRMWARE !!!");
     } else {
       matrixRenderBitmap(app, frameB);
+            Serial.println("!!! DEBUG MODE ENABLED, RE-FLASH FIRMWARE !!!");
     }
 
-    digitalWrite(LED_BUILTIN, dbg ? HIGH : LOW);
+    //digitalWrite(LED_BUILTIN, dbg ? HIGH : LOW);
   }
   delay(1);
   return;

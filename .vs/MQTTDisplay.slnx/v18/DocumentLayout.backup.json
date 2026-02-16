@@ -1,10 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\Repos\\VS2026\\MQTTDisplay\\",
+  "WorkspaceRootPath": "G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3EBEE25-9833-457E-8127-54003D5A0640}|MQTTDisplay\\MQTTDisplay.vcxproj|G:\\Repos\\VS2026\\MQTTDisplay\\MQTTDisplay\\MQTTDisplay.ino||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{A3EBEE25-9833-457E-8127-54003D5A0640}|MQTTDisplay\\MQTTDisplay.vcxproj|G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\src\\connection.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A3EBEE25-9833-457E-8127-54003D5A0640}|MQTTDisplay\\MQTTDisplay.vcxproj|solutionrelative:MQTTDisplay\\src\\connection.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3EBEE25-9833-457E-8127-54003D5A0640}|MQTTDisplay\\MQTTDisplay.vcxproj|G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\src\\mqtt_client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A3EBEE25-9833-457E-8127-54003D5A0640}|MQTTDisplay\\MQTTDisplay.vcxproj|solutionrelative:MQTTDisplay\\src\\mqtt_client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3EBEE25-9833-457E-8127-54003D5A0640}|MQTTDisplay\\MQTTDisplay.vcxproj|G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\__vm\\.MQTTDisplay.vsarduino.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A3EBEE25-9833-457E-8127-54003D5A0640}|MQTTDisplay\\MQTTDisplay.vcxproj|solutionrelative:MQTTDisplay\\__vm\\.MQTTDisplay.vsarduino.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3EBEE25-9833-457E-8127-54003D5A0640}|MQTTDisplay\\MQTTDisplay.vcxproj|G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A3EBEE25-9833-457E-8127-54003D5A0640}|MQTTDisplay\\MQTTDisplay.vcxproj|solutionrelative:MQTTDisplay\\config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3EBEE25-9833-457E-8127-54003D5A0640}|MQTTDisplay\\MQTTDisplay.vcxproj|G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\src\\ui.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A3EBEE25-9833-457E-8127-54003D5A0640}|MQTTDisplay\\MQTTDisplay.vcxproj|solutionrelative:MQTTDisplay\\src\\ui.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3EBEE25-9833-457E-8127-54003D5A0640}|MQTTDisplay\\MQTTDisplay.vcxproj|G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\examples\\config.h.example||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A3EBEE25-9833-457E-8127-54003D5A0640}|MQTTDisplay\\MQTTDisplay.vcxproj|solutionrelative:MQTTDisplay\\examples\\config.h.example||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3EBEE25-9833-457E-8127-54003D5A0640}|MQTTDisplay\\MQTTDisplay.vcxproj|G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\MQTTDisplay.ino||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A3EBEE25-9833-457E-8127-54003D5A0640}|MQTTDisplay\\MQTTDisplay.vcxproj|solutionrelative:MQTTDisplay\\MQTTDisplay.ino||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3EBEE25-9833-457E-8127-54003D5A0640}|MQTTDisplay\\MQTTDisplay.vcxproj|G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\secrets.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A3EBEE25-9833-457E-8127-54003D5A0640}|MQTTDisplay\\MQTTDisplay.vcxproj|solutionrelative:MQTTDisplay\\secrets.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3EBEE25-9833-457E-8127-54003D5A0640}|MQTTDisplay\\MQTTDisplay.vcxproj|G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\src\\time_service.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A3EBEE25-9833-457E-8127-54003D5A0640}|MQTTDisplay\\MQTTDisplay.vcxproj|solutionrelative:MQTTDisplay\\src\\time_service.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +54,114 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "config.h.example",
+              "DocumentMoniker": "G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\examples\\config.h.example",
+              "RelativeDocumentMoniker": "MQTTDisplay\\examples\\config.h.example",
+              "ToolTip": "G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\examples\\config.h.example",
+              "RelativeToolTip": "MQTTDisplay\\examples\\config.h.example",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-15T12:46:59.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "config.h",
+              "DocumentMoniker": "G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\config.h",
+              "RelativeDocumentMoniker": "MQTTDisplay\\config.h",
+              "ToolTip": "G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\config.h",
+              "RelativeToolTip": "MQTTDisplay\\config.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-15T12:46:57.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "connection.cpp",
+              "DocumentMoniker": "G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\src\\connection.cpp",
+              "RelativeDocumentMoniker": "MQTTDisplay\\src\\connection.cpp",
+              "ToolTip": "G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\src\\connection.cpp",
+              "RelativeToolTip": "MQTTDisplay\\src\\connection.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-15T12:22:16.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "time_service.h",
+              "DocumentMoniker": "G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\src\\time_service.h",
+              "RelativeDocumentMoniker": "MQTTDisplay\\src\\time_service.h",
+              "ToolTip": "G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\src\\time_service.h",
+              "RelativeToolTip": "MQTTDisplay\\src\\time_service.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-15T12:22:09.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".MQTTDisplay.vsarduino.h",
+              "DocumentMoniker": "G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\__vm\\.MQTTDisplay.vsarduino.h",
+              "RelativeDocumentMoniker": "MQTTDisplay\\__vm\\.MQTTDisplay.vsarduino.h",
+              "ToolTip": "G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\__vm\\.MQTTDisplay.vsarduino.h",
+              "RelativeToolTip": "MQTTDisplay\\__vm\\.MQTTDisplay.vsarduino.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-15T12:21:23.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ui.cpp",
+              "DocumentMoniker": "G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\src\\ui.cpp",
+              "RelativeDocumentMoniker": "MQTTDisplay\\src\\ui.cpp",
+              "ToolTip": "G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\src\\ui.cpp",
+              "RelativeToolTip": "MQTTDisplay\\src\\ui.cpp",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAAI8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-15T12:19:16.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "secrets.h",
+              "DocumentMoniker": "G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\secrets.h",
+              "RelativeDocumentMoniker": "MQTTDisplay\\secrets.h",
+              "ToolTip": "G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\secrets.h",
+              "RelativeToolTip": "MQTTDisplay\\secrets.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-15T12:18:10.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mqtt_client.cpp",
+              "DocumentMoniker": "G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\src\\mqtt_client.cpp",
+              "RelativeDocumentMoniker": "MQTTDisplay\\src\\mqtt_client.cpp",
+              "ToolTip": "G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\src\\mqtt_client.cpp",
+              "RelativeToolTip": "MQTTDisplay\\src\\mqtt_client.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-15T12:17:41.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MQTTDisplay.ino",
-              "DocumentMoniker": "G:\\Repos\\VS2026\\MQTTDisplay\\MQTTDisplay\\MQTTDisplay.ino",
+              "DocumentMoniker": "G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\MQTTDisplay.ino",
               "RelativeDocumentMoniker": "MQTTDisplay\\MQTTDisplay.ino",
-              "ToolTip": "G:\\Repos\\VS2026\\MQTTDisplay\\MQTTDisplay\\MQTTDisplay.ino",
+              "ToolTip": "G:\\Repos\\VS2026\\ArduinoMQTTDisplay\\MQTTDisplay\\MQTTDisplay.ino",
               "RelativeToolTip": "MQTTDisplay\\MQTTDisplay.ino",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAMsBAAAAAAAAAAAAANgBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-02-14T15:00:07.598Z",
               "EditorCaption": ""
